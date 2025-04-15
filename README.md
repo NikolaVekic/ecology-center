@@ -1,12 +1,22 @@
-# React + Vite
+# Ecology Center Landing Page 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![screencapture-eko-centar-karlovci-netlify-app-2025-04-15-21_04_08-min](https://github.com/user-attachments/assets/ac7e4610-9433-42b2-a303-7ddd47d5a949)
 
-Currently, two official plugins are available:
+A responsive landing page built with **React** and **Tailwind CSS** for a local **Ecology Center Radulovački**.  
+It highlights the center's mission, accommodations, activities, and contact info — all optimized for accessibility and performance across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🖥️ **Responsive Layout:** Seamless experience on mobile, tablet, and desktop.
+- 🧭 **Clean Navigation:** Smooth scroll and anchored links for better UX.
+- 🌱 **Eco-Themed Design:** Visuals and styling tailored to environmental awareness.
+- 📍 **Interactive Map:** Embedded Google Maps for easy location access.
+- 📷 **Gallery Carousel:** Image slider for rooms and facilities.
+- 🌐 **Bilingual Toggle Ready:** Designed to support both Serbian and English content.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Build Tool:** Vite
+- **Hosting:** Netlify
+
