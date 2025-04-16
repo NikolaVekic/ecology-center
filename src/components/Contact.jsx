@@ -6,7 +6,7 @@ const Contact = ({ sectionID }) => {
   const headerText = language === "ENG" ? "Contact" : "Kontakt";
 
   return (
-    <section id={sectionID} className="bg-[#fff]">
+    <section id={sectionID} className="bg-[#fff] pt-[30px]">
       <div className="container relative mx-auto">
         <h2
           className="

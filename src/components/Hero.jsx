@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="#kontakt" className="btn-primary">
               {t.buttons.kontakt}
             </a>
-            <a href="#sadrzaj" className="btn-secondary">
+            <a href="#o-nama" className="btn-secondary">
               {t.buttons.sadrzaj}
             </a>
           </div>

@@ -8,11 +8,15 @@ import Boxes from "./components/Boxes";
 import Contact from "./components/Contact";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 // Import images
 import info1 from "./assets/info-1.png";
 import info2 from "./assets/info-2.png";
 import info3 from "./assets/info-3.png";
+import info4 from "./assets/info-4.png";
+import info5 from "./assets/info-5.png";
+import about from "./assets/about.png";
 import PageLoader from "./components/PageLoader";
 
 function App() {
@@ -22,22 +26,27 @@ function App() {
       <Navbar />
       <main className="min-h-[100vh] container px-4 lg:px-8 overflow-hidden">
         <Hero />
-        <Info sectionID="o-nama" type="about" image={info1} reverse={true} />
         <Box sectionID="radni-prostor" image={info2} />
         <ImageCarousel />
+        <Info sectionID="o-nama" type="about" image={info1} reverse={true} />
+        <Info type="about2" image={info4} reverse={false} />
         <Info
-          sectionID="sadrzaj"
+          sectionID="oznaka-kvaliteta"
           type="content"
-          image={info2}
-          reverse={false}
+          image={info3}
+          reverse={true}
         />
-        <Info
+
+        {/* <Info
           sectionID="istorijat"
           type="history"
           image={info3}
           reverse={true}
-        />
-        <Contact sectionID="kontakt" />
+        /> */}
+        {/* <About /> */}
+        <About sectionID="o-profesoru" type="professor" image={about} />
+        <Info type="location" image={info5} />
+        <Contact sectionID="kontakt" image={info2} reverse={false} />
         <Boxes />
       </main>
       <Footer />

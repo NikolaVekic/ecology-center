@@ -84,7 +84,7 @@ const ImageCarousel = () => {
             src={img}
             alt={`carousel-${i}`}
             onClick={() => openModal(i)}
-            className="w-[350px] h-[430px] object-cover rounded-[24px] shrink-0 cursor-pointer"
+            className="w-[175px] h-[215px] lg:w-[350px] lg:h-[430px] object-cover rounded-[24px] shrink-0 cursor-pointer"
           />
         ))}
       </div>

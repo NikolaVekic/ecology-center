@@ -10,10 +10,10 @@ const Navbar = () => {
   const langRef = useRef(null);
 
   const navLinks = [
-    { label: translations[language].navbar.about, href: "#o-nama" },
     { label: translations[language].navbar.workspace, href: "#radni-prostor" },
-    { label: translations[language].navbar.content, href: "#sadrzaj" },
-    { label: translations[language].navbar.history, href: "#istorijat" },
+    { label: translations[language].navbar.about, href: "#o-nama" },
+    { label: translations[language].navbar.content, href: "#o-profesoru" },
+    { label: translations[language].navbar.history, href: "#oznaka-kvaliteta" },
     { label: translations[language].navbar.contact, href: "#kontakt" },
   ];
 
