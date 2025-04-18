@@ -9,14 +9,14 @@ const About = ({ type, image, sectionID }) => {
   if (!infoData) return null;
 
   return (
-    <section id={sectionID} className="w-full flex flex-col py-[20px]">
+    <section id={sectionID} className="w-full flex flex-col py-[18px]">
       <div className="flex flex-col gap-[28px]">
         {infoData.header && (
           <h2 className="text-[28px] lg:text-[48px] font-bold text-[#083A03] leading-[100%] text-center lg:text-left">
             {infoData.header}
           </h2>
         )}
-        <p className="text-[#083A03] text-[12px] lg:text-[16px] xl:text-[20px] whitespace-pre-line text-center lg:text-left">
+        <p className="text-[#083A03] text-[12px] lg:text-[16px] xl:text-[18px] whitespace-pre-line text-center lg:text-left">
           {infoData.paragraph}
         </p>
         {infoData.quote && (

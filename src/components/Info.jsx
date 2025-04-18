@@ -23,7 +23,7 @@ const InfoSection = ({ sectionID, type, image, reverse = false }) => {
           {infoData.header}
         </h2>
 
-        <p className="text-[#083A03] text-[12px] md:text-[14px] lg:text-[16px] xl:text-[20px]">
+        <p className="text-[#083A03] text-[11.5px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           {infoData.highlightText ? (
             <>
               {parts[0]}

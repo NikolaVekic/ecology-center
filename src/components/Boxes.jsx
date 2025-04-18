@@ -46,7 +46,7 @@ const Boxes = () => {
           <div>
             <p className="text-[10px] md:text-[12px] lg:text-[16px] xl:text-[20px]">
               <a href="tel:+3810600881027" className="hover:underline">
-                +381 060 0 881 027
+                +381 060 0422 920
               </a>
             </p>
             <p className="text-[10px] md:text-[12px] lg:text-[16px] xl:text-[20px]">

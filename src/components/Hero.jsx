@@ -8,7 +8,7 @@ const Hero = () => {
   const t = translations[language].hero;
 
   return (
-    <div className="flex flex-col lg:flex-row relative pt-[60px] gap-[28px] md:pt-[80px]">
+    <div className="flex flex-col lg:flex-row relative pt-[60px] gap-[28px] md:pt-[80px] md:pb-2 lg:pb-6 xl:pb-8">
       <div className="flex flex-col justify-center items-center lg:items-start lg:h-[525px]">
         <div className="w-full max-w-[680px] text-center lg:text-left">
           <p className="text-[#093A04] text-[16px] md:text-[24px] lg:text-[28px] xl:text-[34px] lg:pb-2">

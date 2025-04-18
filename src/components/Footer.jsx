@@ -15,7 +15,7 @@ const Footer = () => {
           </h3>
           <p className="text-[12px] lg:text-[16px] xl:text-[20px]">
             <a href="tel:+381600881027" className="hover:underline">
-              +381 060 0 881 027
+              +381 060 0422 920
             </a>
           </p>
           <p className="text-[12px] lg:text-[16px] xl:text-[20px]">
@@ -36,16 +36,23 @@ const Footer = () => {
         {/* Icons & Logos */}
         <div className="flex flex-col gap-[20px] md:flex-row md:gap-[60px] justify-center items-center">
           <div className="flex gap-[18px] justify-center">
-            <img
-              src={fb}
-              alt="Facebook logo"
-              className="w-[20px] lg:w-[28px] xl:w-[40px] cursor-pointer"
-            />
-            <img
-              src={insta}
-              alt="Instagram logo"
-              className="w-[20px] lg:w-[28px] xl:w-[40px] cursor-pointer"
-            />
+            <a href="https://www.facebook.com/ekoloskicentar" target="_blank">
+              <img
+                src={fb}
+                alt="Facebook logo"
+                className="w-[20px] lg:w-[28px] xl:w-[40px] cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/pokretgoranavojvodine/"
+              target="_blank"
+            >
+              <img
+                src={insta}
+                alt="Instagram logo"
+                className="w-[20px] lg:w-[28px] xl:w-[40px] cursor-pointer"
+              />
+            </a>
           </div>
           <div className="flex gap-[18px] justify-center">
             <img

@@ -17,7 +17,7 @@ const Box = ({ sectionID }) => {
         {boxData.header}
       </h2>
 
-      <div className="text-[12px] lg:text-[16px] xl:text-[20px] mt-3 leading-snug">
+      <div className="text-[12px] lg:text-[16px] xl:text-[18px] mt-3 leading-snug">
         <p className="pb-5">{intro}</p>
         <ul className="list-disc pl-5 space-y-1">
           {listItems.map((item, index) => (
