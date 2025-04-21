@@ -3,6 +3,7 @@ import insta from "../assets/insta.svg";
 import fb from "../assets/fb.svg";
 import footerImg1 from "../assets/footerImg1.png";
 import footerImg2 from "../assets/footerImg2.png";
+import footerImg3 from "../assets/footerImg3.png";
 
 const Footer = () => {
   return (
@@ -58,6 +59,11 @@ const Footer = () => {
             <img
               src={footerImg1}
               alt="Logo 1"
+              className="w-[40px] lg:w-[80px] xl:w-[120px]"
+            />
+            <img
+              src={footerImg3}
+              alt="Logo 3"
               className="w-[40px] lg:w-[80px] xl:w-[120px]"
             />
             <img
