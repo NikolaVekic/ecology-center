@@ -1,6 +1,6 @@
 # Ecology Center Landing Page 🌿
 
-![screencapture-eko-centar-karlovci-netlify-app-2025-04-15-21_04_08-min](https://github.com/user-attachments/assets/ac7e4610-9433-42b2-a303-7ddd47d5a949)
+![eco-center](https://github.com/user-attachments/assets/2e974ee9-a5e4-4a20-81f0-eb68118f49ec)
 
 A responsive landing page built with **React** and **Tailwind CSS** for a local **Ecology Center Radulovački**.  
 It highlights the center's mission, accommodations, activities, and contact info — all optimized for accessibility and performance across devices.
