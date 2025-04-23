@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 
 // Import images
-import info1 from "./assets/info-1.png";
+import info1 from "./assets/info1.jpg";
 import info2 from "./assets/info-2.png";
 import info3 from "./assets/info-3.png";
 import info4 from "./assets/info-4.png";
@@ -37,12 +37,6 @@ function App() {
           reverse={true}
         />
 
-        {/* <Info
-          sectionID="istorijat"
-          type="history"
-          image={info3}
-          reverse={true}
-        /> */}
         {/* <About /> */}
         <About sectionID="o-profesoru" type="professor" image={about} />
         <Info type="location" image={info5} />

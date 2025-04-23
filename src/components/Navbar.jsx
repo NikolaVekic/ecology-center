@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
-import logo from "../assets/logo.png";
+import logoSRB from "../assets/logo.png";
+import logoENG from "../assets/logoENG.jpg";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../translations";
 
 const Navbar = () => {
   const { language, setLanguage } = useLanguage();
+  const logo = language === "ENG" ? logoENG : logoSRB;
   const [isOpen, setIsOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const langRef = useRef(null);

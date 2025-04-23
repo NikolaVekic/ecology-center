@@ -26,12 +26,30 @@ const InfoSection = ({ sectionID, type, image, reverse = false }) => {
         <p className="text-[#083A03] text-[11.5px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           {infoData.highlightText ? (
             <>
-              {parts[0]}
+              {/* Before highlight */}
+              {parts[0].split("\n").map((line, i) => (
+                <React.Fragment key={`pre-${i}`}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
+              {/* Highlighted text */}
               <span className="font-semibold">{infoData.highlightText}</span>
-              {parts[1]}
+              {/* After highlight */}
+              {parts[1].split("\n").map((line, i) => (
+                <React.Fragment key={`post-${i}`}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
             </>
           ) : (
-            infoData.paragraph
+            infoData.paragraph.split("\n").map((line, i, arr) => (
+              <React.Fragment key={i}>
+                {line}
+                {i < arr.length - 1 && <br />}
+              </React.Fragment>
+            ))
           )}
         </p>
 

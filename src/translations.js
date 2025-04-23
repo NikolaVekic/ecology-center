@@ -18,14 +18,14 @@ export const translations = {
     info: {
       about: {
         header: "O nama",
-        paragraph: `"Ekološki centar Radulovački" je jedinstveni centar za edukaciju i boravak organizovanih grupa, i u vlasništvu je udruženja Pokret gorana Vojvodine. Centar je otvoren 2008. godine, i sastoji se iz dva objekta/krila i prostranog dvorišta. Jedno krilo, koje nosi naziv "Fruška gora", je objekat koji datira iz 18. veka i zaštićen je kao spomenik kulture od strane države. Novo krilo zgrade, koje nosi naziv "Dunav", izgrađeno je 2012. godine, i predstavlja jedan od prvih primera energetski efikasnih objekata u Srbiji – koji koristi solarnu i geotermalnu energiju.`,
+        paragraph: `"Ekološki centar Radulovački" je jedinstveni centar za edukaciju i boravak organizovanih grupa, i u vlasništvu je udruženja Pokret gorana Vojvodine. Centar je otvoren 2008. godine, i sastoji se iz dva objekta/krila i prostranog dvorišta. \n \n   Jedno krilo, koje nosi naziv "Fruška gora", je objekat koji datira iz 18. veka i zaštićen je kao spomenik kulture od strane države. \n \n  Novo krilo zgrade, koje nosi naziv "Dunav", izgrađeno je 2012. godine, i predstavlja jedan od prvih primera energetski efikasnih objekata u Srbiji – koji koristi solarnu i geotermalnu energiju.`,
         highlightText: "Pokret gorana Vojvodine",
-        buttonTitle: "Pokret Gorana \n Vojvodine sajt",
+        buttonTitle: "Pokret gorana \n Vojvodine sajt",
         buttonLink: "https://pgv.org.rs",
       },
       about2: {
         paragraph:
-          '"Ekološki centar Radulovački" pored smeštaja, ishrane i prostora za rad - Centar grupama pruža i dodatne sadržaje (usluge). Neki od omiljenih su: zabavno-edukativne radionice u prirodi, plovidba Dunavom, aktivan boravak u prirodi (iznajmljivanje bicikala i kanua), turistički programi (muzeji, vinarije...). "Ekološki centar Radulovački" se ponosi oznakom kvaliteta "Evropski omladinski centar", jednim od najznačajnijih priznanja koju dodeljuje Savet Evrope. To je mesto gde Pokret gorana Vojvodine realizuje svoje aktivnosti (trening-seminari, letnji kampovi, međunarodni volonterski kampovi, obuke), ali i ustupa prostor drugim organizacijama iz Srbije i inostranstva koje se bave obrazovanjem mladih.',
+          '"Ekološki centar Radulovački" pored smeštaja, ishrane i prostora za rad pruža grupama i dodatne sadržaje i usluge. Neki od omiljenih su: zabavno-edukativne radionice u prirodi, plovidba Dunavom, aktivan boravak u prirodi (iznajmljivanje bicikala i kanua), turistički programi (muzeji, vinarije...). "Ekološki centar Radulovački" se ponosi oznakom kvaliteta "Evropski omladinski centar", jednim od najznačajnijih priznanja koju dodeljuje Savet Evrope. To je mesto gde Pokret gorana Vojvodine realizuje svoje aktivnosti (trening-seminari, letnji kampovi, međunarodni volonterski kampovi, obuke), ali i ustupa prostor drugim organizacijama iz Srbije i inostranstva koje se bave obrazovanjem mladih.',
       },
       professor: {
         header: "O profesoru",
@@ -89,9 +89,9 @@ export const translations = {
       about: {
         header: "About us",
         paragraph:
-          'Ecological Center "Radulovački" is a unique center providing educational and lodging services, owned by the Vojvodina Environmental Movement. The Center was established in 2008 and comprises two wings (structures) and a spacious yard. One of the wings, known as "Frankish Mountain," dates back to the 18th century and is protected as a cultural monument. The newer "Danube" wing, built in 2012, is one of the first energy-efficient buildings in Serbia using solar and geothermal energy.',
+          'Ecological Center "Radulovački" is a unique center providing educational and lodging services, owned by the Vojvodina Environmental Movement. The Center was established in 2008 and comprises two wings (structures) and a spacious yard. \n \n  One of the wings, known as "Frankish Mountain," dates back to the 18th century and is protected as a cultural monument. \n \n  The newer "Danube" wing, built in 2012, is one of the first energy-efficient buildings in Serbia using solar and geothermal energy.',
         highlightText: "",
-        buttonTitle: "Vojvodina Enviromental \n movement website",
+        buttonTitle: "Vojvodina Enviromental \n Movement website",
         buttonLink: "https://pgv.org.rs",
       },
       about2: {
